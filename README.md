@@ -24,7 +24,7 @@ Provide the required details that is being asked in the prompt while running.
 
 ## Output
 
-After the program ends, check in the same folder you have stored `tableToPDF.c`. You will find an `output.PDF` file in the same folder with the table created.
+After the program ends, check in the same folder you have stored `tableToPDF.c`. You will find an `output.pdf` file in the same folder with the table created.
 
 ## Drawbacks
 
