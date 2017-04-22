@@ -55,6 +55,7 @@ int main() {
    jag_Canvas_move_to(canvas, 50, 780);
    jag_Canvas_line_to(canvas, 500, 780);
    jag_Canvas_path_paint(canvas, "s");
+   // manual spacing
    sprintf(looper, "Sl.No        Roll No        Name                                                          Marks");
    jag_Canvas_text_simple(canvas, 70, 760, looper);
 
@@ -67,6 +68,7 @@ int main() {
    for(i = 730; i > 0;) {
      if(j == n)
 	    break;
+	   // manual spacing
 	   sprintf(looper,"   %d                 %d               %s                                                     %d ", (ptr+j)->sl_no, (ptr+j)->roll_no, (ptr+j)->st_name, (ptr+j)->marks);
      jag_Canvas_text_simple(canvas, 70, i, looper);
      i = i-20;
